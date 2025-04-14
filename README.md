@@ -1,62 +1,149 @@
-#  Install Python-Dev Dependencies
-| **Author** | **Created on** | **Version** | **Last updated by**|**Internal Reviewer** |**Reviewer L0** |**Reviewer L1** |**Reviewer L2** |
-|------------|---------------------------|-------------|---------------------|-------------|-------------|-------------|-------------|
-| Aayush Verma|   13-02-2025             | v1          | Aayush Verma        |  Komal Jaiswal | Akshit kapil | Taranddeep | Abhishek  Dubey|
+# 🖥️ Ubuntu OS - Software Management SOP
+
+| Author       | Created on | Version | Last updated by | Last edited on | Internal Reviewer | Reviewer L0 | Reviewer L1 | Reviewer L2 |
+|--------------|------------|---------|------------------|----------------|-------------------|-------------|-------------|-------------|
+| Himanshu     | 2025-04-14 | 1.0     | Himanshu         | 2025-04-14     |                   |             |             |             |
+
 ---
-### **Table of Contents**
-  - [1. Introduction](#introduction)
-  - [2. Pre Installation](#pre-installation-checklist)
-  - [3. Install Development Dependencies](#install-development-dependencies)
-  - [4. Conclusion](#conclusion)
-  - [5. Contact Information](#contact-information)
-  - [6. References](#references)
-### **Introduction**
-When working on Python projects, especially those involving database integrations or packages with native extensions, having the right development tools and libraries is essential. This guide will walk you through the pre-installation steps and the installation command, ensuring your environment is ready for seamless development.
+
+## 📌 Overview
+
+This document outlines the standard procedure for managing software on Ubuntu OS using the `apt` package manager. It covers installing, updating, and removing software packages efficiently and securely.
+
 ---
-### **Pre-Installation Checklist**
-Before running the installation command, follow these steps to prepare your system:
-1. **Verify System Requirements**  
-   - Ensure you are on a Debian-based Linux distribution (e.g., Ubuntu) with `apt` as the package manager.  
-   - Confirm that you have sudo access to execute administrative commands.
-2. **Check Python Version**  
-   - Confirm Python 3.11 is installed by running:  
-     ```bash
-     python3.11 --version
-     ```
- If Python 3.11 is not installed, refer to [Python's installation guide](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Aayush-SCRUM-2/Common/Software/Python/Installation/README.md#how-to-install-python-using-deadsnakes-ppa-ubuntu-only)
-3. **Update Package Index**  
-   - Update your package index to ensure you’re installing the latest versions:  
-     ```bash
-     sudo apt update
-     ```
-4. **Verify PostgreSQL Installation (Optional)**  
-   - If your project involves PostgreSQL, ensure PostgreSQL is installed and configured:  
-     ```bash
-     psql --version
-     ```  
-   - If missing, install it with:  
-     ```bash
-     sudo apt install -y postgresql
-     ```
-6. **Ensure Sufficient Disk Space**  
-   - Make sure your system has at least 500MB of free disk space to accommodate the tools and libraries.
+
+## 🧰 Tools & Commands Used
+
+- `apt` – Advanced Package Tool (primary command-line package manager for Ubuntu)
+- `dpkg` – Debian package manager backend used to query package status
+
 ---
-### **Install Development Dependencies**
-Once the pre-installation checklist is complete, run the following command to install the necessary libraries and tools:
+
+## 🔐 Prerequisites
+
+- Ubuntu 20.04 or later (LTS recommended)
+- User must have `sudo` privileges
+- Stable internet connection for accessing repositories
+
+---
+
+## 🔄 Update System
+
+### 🟢 Update Package List
 ```bash
-sudo apt install -y python3.11-dev libpq-dev 
+sudo apt update
 ```
-#### **Breakdown of the Command**
-- **`python3.11-dev`**: Provides header files and static libraries for Python 3.11, essential for building Python packages with native extensions.  
-- **`libpq-dev`**: Includes PostgreSQL development libraries and headers, required for Python packages like `psycopg2` that interact with PostgreSQL.  
+> Syncs the local package index with the upstream repositories.
+
 ---
-### **Conclusion**
-Installing development dependencies is a crucial step in setting up a robust Python development environment. By completing the pre-installation checklist and running the installation command, you can ensure your system is ready for building and running Python projects seamlessly. These tools and libraries help avoid errors and allow for smooth integration of high-performance packages like `psycopg2` modules.  
-## Contact Information
-| **Name**        | **Email Address**             |
-|-----------------|------------------------------|
-| Aayush Verma    | <aayush.verma@mygurukulam.co>  |
-## References
-| **Link**                                                                                                                     | **Description**                   |
-|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [How to install Python Dependencies](https://medium.com/django-unleashed/fixing-psycopg2-installation-errors-on-ubuntu-and-mac-a-simple-guide-277a777b3c50) | Python Dependencies  |
+
+### 🟡 Upgrade Installed Packages
+```bash
+sudo apt upgrade
+```
+> Installs the newest versions of all currently installed packages.
+
+---
+
+### 🔴 Full Upgrade (with dependency resolution)
+```bash
+sudo apt full-upgrade
+```
+> Like `upgrade` but removes/installs packages to resolve dependency changes.
+
+---
+
+## ➕ Install Software
+
+### ✅ Basic Installation
+```bash
+sudo apt install <package-name>
+```
+
+**Example:**
+```bash
+sudo apt install nginx
+```
+
+### 🚀 Auto-confirm Installation
+```bash
+sudo apt install -y <package-name>
+```
+
+---
+
+## ➖ Remove Software
+
+### 🗑️ Remove (keep config)
+```bash
+sudo apt remove <package-name>
+```
+
+### 🔥 Purge (remove config too)
+```bash
+sudo apt purge <package-name>
+```
+
+### 🧹 Auto-remove Unused Dependencies
+```bash
+sudo apt autoremove
+```
+
+---
+
+## 🧼 Clean Package Cache
+
+### 🧽 Remove downloaded .deb files
+```bash
+sudo apt clean
+```
+
+### 🗃️ Remove outdated package lists
+```bash
+sudo apt autoclean
+```
+
+---
+
+## 🔍 Search & Inspect Packages
+
+### 🔎 Search for Packages
+```bash
+apt search <package-name>
+```
+
+### 📦 Show Package Info
+```bash
+apt show <package-name>
+```
+
+---
+
+## 📋 List Installed Packages
+
+### 📃 All Installed Packages
+```bash
+dpkg -l
+```
+
+### 🔍 Filter Installed Package
+```bash
+dpkg -l | grep <package-name>
+```
+
+---
+
+## ✅ Best Practices
+
+- Always run `sudo apt update` before installing new software
+- Schedule `apt upgrade` or `full-upgrade` periodically
+- Use `purge` instead of `remove` when clearing old configs
+- Run `autoremove` and `clean` monthly to free up space
+
+---
+
+## 📞 Contact Information
+
+| Name              | Email Address                                   |
+|-------------------|--------------------------------------------------|
+| Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co        |
