@@ -1,141 +1,65 @@
-# 🖥️ Ubuntu OS - Software Management SOP
+# **Installation  of Migration Tool**
 
-| Author       | Created on | Version | Last updated by | Last edited on |
-|--------------|------------|---------|------------------|----------------|
-| Himanshu     | 2025-04-14 | 1.0     | Himanshu         | 2025-04-14     |
-
----
-
-## 📌 Overview
-
-This document outlines the standard procedure for managing software on Ubuntu OS using the `apt` package manager. It covers installing, updating, and removing software packages efficiently and securely.
+| **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Level** |**Reviewer** |
+|------------|---------------------------|-------------|----------------|-----|-------------|-------------|
+| Nikita Joshi|  11-02-2025           | v1          | Nikita Joshi    |11-02-2025    |  L2 | Mahesh Kumar| 
+| Nikita Joshi|  11-02-2025           | v1          | Nikita Joshi    |11-02-2025    |  L1 | Shashi | 
+| Nikita Joshi|   11-02-2025          | v1          | Nikita Joshi    |11-02-2025    |   L0 | Bhavnesh Baghel | 
+| Nikita Joshi|   11-02-2025          | v1          | Nikita Joshi   |11-02-2025    |  Internal Reviewer | Komal Jaiswal |
 
 ---
 
-## 🧰 Tools & Commands Used
+## **Table of Content**
+[1. Introduction](#introduction)
 
-- `apt` – Advanced Package Tool (primary command-line package manager for Ubuntu)
-- `dpkg` – Debian package manager backend used to query package status
+[2. Install migrate](#1-install-migrate)
 
----
+[3. move the file](#2-move-the-file-to-below-location)
 
-## 🔐 Prerequisites
+[4. check version](#3-check-the-version-of-migrate)
 
-- Ubuntu 20.04 or later (LTS recommended)
-- User must have `sudo` privileges
-- Stable internet connection for accessing repositories
+[5. contact Information](#contact-information)
 
----
 
-## 🔄 Update System
+## **Introduction**
 
-### 🟢 Update Package List
-```bash
-sudo apt update
-```
-> Syncs the local package index with the upstream repositories.
+The migrate tool is used to manage database schema migrations. It allows you to apply, rollback, and version-control database changes. Below is a detailed guide on how to install and use the migrate tool, including its dependency on jq.
 
----
+___
+### 1. **Install migrate**
 
-### 🟡 Upgrade Installed Packages
-```bash
-sudo apt upgrade
-```
-> Installs the newest versions of all currently installed packages.
+- Download the migrate binary for your system. using  the following command:
 
----
-
-### 🔴 Full Upgrade (with dependency resolution)
-```bash
-sudo apt full-upgrade
-```
-> Like `upgrade` but removes/installs packages to resolve dependency changes.
-
----
-
-## ➕ Install Software
-
-### ✅ Basic Installation
-```bash
-sudo apt install <package-name>
+``` bash
+curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz | tar xvz
 ```
 
-**Example:**
-```bash
-sudo apt install nginx
+curl: Downloads the file from the internet.
+
+-L: Follows redirects if the download link changes.
+
+tar xvz: Extracts the downloaded .tar.gz file.
+___
+### 2. **Move the file to below location**
+
+``` bash
+sudo mv migrate /usr/local/bin/migrate
 ```
 
-### 🚀 Auto-confirm Installation
-```bash
-sudo apt install -y <package-name>
+sudo mv: Moves the file with superuser privileges.
+
+/usr/local/bin/: A directory for system-wide executable files.
+___
+#### 3. **Check the version of migrate**
+
+``` bash
+migrate --version
 ```
+This command will display the installed version of migrate.
+___
 
----
+### **Contact Information**
 
-## ➖ Remove Software
-
-### 🗑️ Remove (keep config)
-```bash
-sudo apt remove <package-name>
-```
-
-### 🔥 Purge (remove config too)
-```bash
-sudo apt purge <package-name>
-```
-
-### 🧹 Auto-remove Unused Dependencies
-```bash
-sudo apt autoremove
-```
-
----
-
-## 🧼 Clean Package Cache
-
-### 🧽 Remove downloaded .deb files
-```bash
-sudo apt clean
-```
-
-### 🗃️ Remove outdated package lists
-```bash
-sudo apt autoclean
-```
-
----
-
-## 🔍 Search & Inspect Packages
-
-### 🔎 Search for Packages
-```bash
-apt search <package-name>
-```
-
-### 📦 Show Package Info
-```bash
-apt show <package-name>
-```
-
----
-
-## 📋 List Installed Packages
-
-### 📃 All Installed Packages
-```bash
-dpkg -l
-```
-
-### 🔍 Filter Installed Package
-```bash
-dpkg -l | grep <package-name>
-```
-
----
-
-## ✅ Best Practices
-
-- Always run `sudo apt update` before installing new software
-- Schedule `apt upgrade` or `full-upgrade` periodically
-- Use `purge` instead of `remove` when clearing old configs
-- Run `autoremove` and `clean` monthly to free up space
+| **Name** | **Email address**            | **Github ID**
+|----------|-------------------------------|-------------------|
+| Nikita joshi    |  jnikita647@gmail.com   | https://github.com/jnikita19  |
