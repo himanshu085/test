@@ -1,65 +1,62 @@
-# **Installation  of Migration Tool**
-
-| **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Level** |**Reviewer** |
-|------------|---------------------------|-------------|----------------|-----|-------------|-------------|
-| Nikita Joshi|  11-02-2025           | v1          | Nikita Joshi    |11-02-2025    |  L2 | Mahesh Kumar| 
-| Nikita Joshi|  11-02-2025           | v1          | Nikita Joshi    |11-02-2025    |  L1 | Shashi | 
-| Nikita Joshi|   11-02-2025          | v1          | Nikita Joshi    |11-02-2025    |   L0 | Bhavnesh Baghel | 
-| Nikita Joshi|   11-02-2025          | v1          | Nikita Joshi   |11-02-2025    |  Internal Reviewer | Komal Jaiswal |
-
+#  Install Python-Dev Dependencies
+| **Author** | **Created on** | **Version** | **Last updated by**|**Internal Reviewer** |**Reviewer L0** |**Reviewer L1** |**Reviewer L2** |
+|------------|---------------------------|-------------|---------------------|-------------|-------------|-------------|-------------|
+| Aayush Verma|   13-02-2025             | v1          | Aayush Verma        |  Komal Jaiswal | Akshit kapil | Taranddeep | Abhishek  Dubey|
 ---
-
-## **Table of Content**
-[1. Introduction](#introduction)
-
-[2. Install migrate](#1-install-migrate)
-
-[3. move the file](#2-move-the-file-to-below-location)
-
-[4. check version](#3-check-the-version-of-migrate)
-
-[5. contact Information](#contact-information)
-
-
-## **Introduction**
-
-The migrate tool is used to manage database schema migrations. It allows you to apply, rollback, and version-control database changes. Below is a detailed guide on how to install and use the migrate tool, including its dependency on jq.
-
-___
-### 1. **Install migrate**
-
-- Download the migrate binary for your system. using  the following command:
-
-``` bash
-curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz | tar xvz
+### **Table of Contents**
+  - [1. Introduction](#introduction)
+  - [2. Pre Installation](#pre-installation-checklist)
+  - [3. Install Development Dependencies](#install-development-dependencies)
+  - [4. Conclusion](#conclusion)
+  - [5. Contact Information](#contact-information)
+  - [6. References](#references)
+### **Introduction**
+When working on Python projects, especially those involving database integrations or packages with native extensions, having the right development tools and libraries is essential. This guide will walk you through the pre-installation steps and the installation command, ensuring your environment is ready for seamless development.
+---
+### **Pre-Installation Checklist**
+Before running the installation command, follow these steps to prepare your system:
+1. **Verify System Requirements**  
+   - Ensure you are on a Debian-based Linux distribution (e.g., Ubuntu) with `apt` as the package manager.  
+   - Confirm that you have sudo access to execute administrative commands.
+2. **Check Python Version**  
+   - Confirm Python 3.11 is installed by running:  
+     ```bash
+     python3.11 --version
+     ```
+ If Python 3.11 is not installed, refer to [Python's installation guide](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Aayush-SCRUM-2/Common/Software/Python/Installation/README.md#how-to-install-python-using-deadsnakes-ppa-ubuntu-only)
+3. **Update Package Index**  
+   - Update your package index to ensure you’re installing the latest versions:  
+     ```bash
+     sudo apt update
+     ```
+4. **Verify PostgreSQL Installation (Optional)**  
+   - If your project involves PostgreSQL, ensure PostgreSQL is installed and configured:  
+     ```bash
+     psql --version
+     ```  
+   - If missing, install it with:  
+     ```bash
+     sudo apt install -y postgresql
+     ```
+6. **Ensure Sufficient Disk Space**  
+   - Make sure your system has at least 500MB of free disk space to accommodate the tools and libraries.
+---
+### **Install Development Dependencies**
+Once the pre-installation checklist is complete, run the following command to install the necessary libraries and tools:
+```bash
+sudo apt install -y python3.11-dev libpq-dev 
 ```
-
-curl: Downloads the file from the internet.
-
--L: Follows redirects if the download link changes.
-
-tar xvz: Extracts the downloaded .tar.gz file.
-___
-### 2. **Move the file to below location**
-
-``` bash
-sudo mv migrate /usr/local/bin/migrate
-```
-
-sudo mv: Moves the file with superuser privileges.
-
-/usr/local/bin/: A directory for system-wide executable files.
-___
-#### 3. **Check the version of migrate**
-
-``` bash
-migrate --version
-```
-This command will display the installed version of migrate.
-___
-
-### **Contact Information**
-
-| **Name** | **Email address**            | **Github ID**
-|----------|-------------------------------|-------------------|
-| Nikita joshi    |  jnikita647@gmail.com   | https://github.com/jnikita19  |
+#### **Breakdown of the Command**
+- **`python3.11-dev`**: Provides header files and static libraries for Python 3.11, essential for building Python packages with native extensions.  
+- **`libpq-dev`**: Includes PostgreSQL development libraries and headers, required for Python packages like `psycopg2` that interact with PostgreSQL.  
+---
+### **Conclusion**
+Installing development dependencies is a crucial step in setting up a robust Python development environment. By completing the pre-installation checklist and running the installation command, you can ensure your system is ready for building and running Python projects seamlessly. These tools and libraries help avoid errors and allow for smooth integration of high-performance packages like `psycopg2` modules.  
+## Contact Information
+| **Name**        | **Email Address**             |
+|-----------------|------------------------------|
+| Aayush Verma    | <aayush.verma@mygurukulam.co>  |
+## References
+| **Link**                                                                                                                     | **Description**                   |
+|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [How to install Python Dependencies](https://medium.com/django-unleashed/fixing-psycopg2-installation-errors-on-ubuntu-and-mac-a-simple-guide-277a777b3c50) | Python Dependencies  |
