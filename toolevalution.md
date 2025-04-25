@@ -1,7 +1,8 @@
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/2560px-Nginx_logo.svg.png" alt="Nginx Logo" width="200"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Apache_HTTP_Server_logo.svg/800px-Apache_HTTP_Server_logo.svg.png" alt="Apache Logo" width="200"/>
+  <img src="https://www.brcline.com/blog/setting-up-caching-on-apache/apache-logo#google_vignette" alt="Apache Logo" width="200"/>
 </p>
+
 
 
 # Nginx vs Apache: Comparison Template
