@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/2560px-Nginx_logo.svg.png" alt="Nginx Logo" width="200"/>
-    <span style="font-size: 30px; font-weight: bold; margin: 0 20px;">VS</span>
-    <img src="https://www.brcline.com/wp-content/uploads/2020/06/apache-logo.png" alt="Apache Logo" width="200"/>
+      <span style="font-size: 30px; font-weight: bold; margin: 0 20px;">VS</span>
+     <img src="https://www.brcline.com/wp-content/uploads/2020/06/apache-logo.png" alt="Apache Logo" width="200"/>
 </p>
 
 
