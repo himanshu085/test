@@ -87,4 +87,14 @@ Ultimately, the choice between **Nginx** and **Apache** depends on the specific 
 
 
 ## References
-1.  [https://nginx.org/en/docs/](https://nginx.org/en/docs/)
+
+| **Topic**                                      | **Link**                                                            | **Description**                                                                                           |
+|------------------------------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| Nginx Documentation                            | [https://nginx.org/en/docs/](https://nginx.org/en/docs/)             | Official Nginx documentation covering installation, configuration, and usage of Nginx.                    |
+| Apache HTTP Server Documentation               | [https://httpd.apache.org/docs/](https://httpd.apache.org/docs/)     | Official documentation for the Apache HTTP Server, including installation and configuration guides.         |
+| Nginx vs Apache Performance Comparison          | [https://www.nginx.com/blog/nginx-vs-apache-performance/](https://www.nginx.com/blog/nginx-vs-apache-performance/) | Performance comparison between Nginx and Apache, highlighting their strengths and weaknesses.               |
+| Apache HTTP Server Features and Benefits       | [https://httpd.apache.org/](https://httpd.apache.org/)                | Overview of Apache HTTP server features, modules, and its flexibility for different web applications.      |
+| Nginx: The High-Performance Web Server         | [https://www.digitalocean.com/community/tutorials/understanding-nginx-theory-of-operations](https://www.digitalocean.com/community/tutorials/understanding-nginx-theory-of-operations) | Tutorial explaining the theory behind Nginx’s high-performance, asynchronous, event-driven design.        |
+| Security Best Practices for Apache Web Server  | [https://www.acs.com/security/apache-web-server-security-best-practices/](https://www.acs.com/security/apache-web-server-security-best-practices/) | Guide on securing Apache web server by implementing best security practices.                               |
+| Nginx Security and Performance Enhancements    | [https://www.cio.com/article/201941/why-choose-nginx-for-web-server-performance-and-security](https://www.cio.com/article/201941/why-choose-nginx-for-web-server-performance-and-security) | Article discussing Nginx's security features and performance enhancements for high-traffic sites.           |
+
