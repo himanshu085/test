@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://blog.logrocket.com/wp-content/uploads/2021/10/caddy-nginx-apache.png" alt="Caddy vs Nginx vs Apache" width="250"/>
+  <img src="https://blog.logrocket.com/wp-content/uploads/2021/10/caddy-nginx-apache.png" alt="Caddy vs Nginx vs Apache" width="350"/>
 </p>
 
 <h1 align="center">Nginx vs Apache vs Caddy: Web Server Comparison</h1>
