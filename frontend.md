@@ -2,12 +2,14 @@
 
 ### This document provides Proof-of-Concept (POC) of frontend Setup and run the App in detail.
 
-| **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
-|------------|----------------|-------------|---------------------|--------------------|--------------------|-----------------|
-| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-25         | Internal Reviewer  | Komal Jaiswal   |
-| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-25         | L0                 | Imran           |
-| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-25         | L1                 | Shashi          |
-| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-25         | L2                 | Mahesh Kumar    |
+| Author        | Date       | Version | Review Level   | Reviewer Name        |
+|---------------|------------|---------|----------------|----------------------|
+| Pravalika Kanikarapu  | April 27   | v1.1    | Pre-Reviewer   | Priyanshu            |
+| Pravalika Kanikarapu  | April 27   | v2.1    | L0             | Khushi Malothra      |
+| Pravalika Kanikarapu  |            |         | L1             | Rishabh Sharma       |
+| Pravalika Kanikarapu  |            |         | L2             | piyush Upadhyay      |
+
+
 
 ---
 
@@ -137,11 +139,11 @@ The API is dynamic and interactive as it is based on ReactJS, a high-performance
 
 
 ---
+# Contact Information
 
-## Contact Information
-| Name              | Email Address                                   |
-|-------------------|--------------------------------------------------|
-| Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co         |
+| Name       | Email Address                |
+|------------|------------------------------|
+| Pravalika  | kanikarapu.pravalika.snaatak@mygurukulam.co|
 
 ---
 
