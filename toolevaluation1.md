@@ -1,7 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/2560px-Nginx_logo.svg.png" alt="Nginx Logo" width="180"/>
-  <img src="https://www.brcline.com/wp-content/uploads/2020/06/apache-logo.png" alt="Apache Logo" width="180" style="margin: 0 40px;"/>
-  <img src="https://caddyserver.com/resources/images/caddy-logo.svg" alt="Caddy Logo" width="180"/>
+  <img src="https://blog.logrocket.com/wp-content/uploads/2021/10/caddy-nginx-apache.png" alt="Caddy vs Nginx vs Apache" width="600"/>
 </p>
 
 <h1 align="center">Nginx vs Apache vs Caddy: Web Server Comparison</h1>
