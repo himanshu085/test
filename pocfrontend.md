@@ -14,9 +14,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Purpose](#purpose)
-- [System Requirements](#system-requirements)
-- [Pre-requisites](#pre-requisites)
-- [Architecture](#architecture)
 - [Installation Steps](#installation-steps)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
@@ -32,7 +29,7 @@ This document outlines the step-by-step process for deploying a Node.js-based fr
 The purpose of this application deployment process is to set up the environment for the frontend application, handle the necessary dependencies, and ensure that it is fully operational.
 
 
-## Step-by-Step Installation of Frontend Application
+## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
 
 ###  Update Packages
