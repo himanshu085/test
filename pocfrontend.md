@@ -67,11 +67,11 @@ npm -v
 ![Screenshot from 2025-04-26 21-06-47](https://github.com/user-attachments/assets/3e21056f-1e0a-47eb-a0c0-4b3340fcef11)
 
 
-**Create the `public` Directory and `index.html`**
+**Go inside the `public` Directory and `index.html`**
 
 Inside the frontend directory:
 
-1. Goto the folder named `public`.
+1. Go to the folder named `public`.
    ```sh
    cd public
    ```
