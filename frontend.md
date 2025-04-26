@@ -60,7 +60,7 @@ For the Frontend PoC, follow the steps mentioned below:
 First step is to update the packages (instance type t2.small, volume 20GB):
 ```sh
 sudo apt update
-sudo apt list --upgradable
+sudo apt upgrade -y
 ```
 
 ###  Clone the Repository
