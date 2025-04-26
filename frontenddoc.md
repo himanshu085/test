@@ -1,4 +1,4 @@
-# POC for Frontend
+# Frontend Detailed Document
 
 ### This document provides Proof-of-Concept (POC) of frontend Setup and run the App in detail.
 
