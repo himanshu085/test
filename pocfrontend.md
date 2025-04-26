@@ -15,7 +15,6 @@
 - [Introduction](#introduction)
 - [Purpose](#purpose)
 - [Installation Steps](#installation-steps)
-- [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
 
