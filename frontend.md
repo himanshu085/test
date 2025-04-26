@@ -81,8 +81,12 @@ sudo apt install npm
 npm -v
 ```
 
-### - Create Directory and `index.html`
-Create a directory named `public` inside the `frontend` directory and create an `index.html` file with the following content:
+**Create the `public` Directory and `index.html`**
+
+Inside the frontend directory:
+
+1. Create a folder named `public`.
+2. Inside the `public` folder, create a file named `index.html` with the following content:
 
 ```html
 <!DOCTYPE html>
@@ -98,9 +102,8 @@ Create a directory named `public` inside the `frontend` directory and create an 
   <div id="root"></div>
   <h1>Welcome to Frontend Web Page</h1>
 </body>
-
 </html>
-```
+
 
 ### - Edit the package.json
 In the `package.json`, replace the proxy IP with your public VM IP address along with the specified port.
