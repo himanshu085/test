@@ -1,6 +1,6 @@
-# POC Document for Frontend
+# POC for Frontend
 
-### This document provides Proof-of-Concept (POC) of frontend in detail.
+### This document provides Proof-of-Concept (POC) of frontend Setup and run the App in detail.
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
 |------------|----------------|-------------|---------------------|--------------------|--------------------|-----------------|
