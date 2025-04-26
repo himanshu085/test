@@ -114,11 +114,11 @@ In our project, we use GitHub PATs instead of passwords for secure access to API
 | Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co         |
 
 ---
-##  **References**
+## **References**
 
-| Service | Documentation Link |
-|---------|--------------------|
-| **GitHub** | [GitHub Documentation](https://docs.github.com/) |
-| **GitLab** | [GitLab Documentation](https://docs.gitlab.com/) |
-| **Bitbucket** | [Bitbucket Documentation](https://bitbucket.org/product) |
-| **OAuth 2.0** | [OAuth 2.0 Overview](https://oauth.net/2/) |
+| Topic         | Link                                                  | Description                         |
+|---------------|-------------------------------------------------------|-------------------------------------|
+| GitHub        | https://docs.github.com/                              | Official GitHub documentation.     |
+| GitLab        | https://docs.gitlab.com/                              | Official GitLab documentation.     |
+| Bitbucket     | https://bitbucket.org/product                         | Official Bitbucket product page.   |
+| OAuth 2.0     | https://oauth.net/2/                                  | Overview of the OAuth 2.0 protocol.|
