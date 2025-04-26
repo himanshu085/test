@@ -11,14 +11,15 @@
 
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Why Authentication is Important](#why-authentication-is-important)
-3. [Authentication Strategies](#authentication-strategies)
-4. [Comparison of Authentication Methods](#comparison-of-authentication-methods)
-5. [Best Practices for Authentication](#best-practices-for-authentication)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+- [Introduction](#introduction)
+- [Why Authentication is Important](#why-authentication-is-important)
+- [Authentication Strategies](#authentication-strategies)
+- [Comparison of Authentication Methods](#comparison-of-authentication-methods)
+- [Best Practices for Authentication](#best-practices-for-authentication)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
+
 
     ___
 
