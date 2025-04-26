@@ -9,6 +9,7 @@
 | Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-27         | L1                 | Shashi          |
 | Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-27         | L2                 | Mahesh Kumar    |
 
+---
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -19,9 +20,7 @@
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
-
-
-    ___
+---
 
 ##  **Introduction**
 Authentication is the process of verifying the identity of a user or system. In Version Control Systems (VCS), it ensures that only authorized users can access, modify, or manage code repositories. This is critical for maintaining the security and integrity of software development projects.
