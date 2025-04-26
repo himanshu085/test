@@ -2,7 +2,7 @@
   <img src="https://blog.logrocket.com/wp-content/uploads/2021/10/caddy-nginx-apache.png" alt="Caddy, Nginx, Apache Comparison" width="350" height="200"/>
 </p>
 
-<h1 align="center">Nginx vs Apache vs Caddy: Web Server Comparison</h1>
+Nginx vs Apache vs Caddy: Web Server Comparison
 
 ---
 
