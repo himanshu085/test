@@ -2,11 +2,13 @@
 
 
 
-| **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Level** |**Reviewer** |
-|------------|---------------------------|-------------|----------------|-----|-------------|-------------|
-| Nikita Joshi|  17-02-2025           | v2          | Nikita Joshi    |19-02-2025    |  L1 | Shashi | 
-| Nikita Joshi|   17-02-2025          | v1          | Nikita Joshi    |17-02-2025    |   L0 | Bhavnesh Baghel | 
-| Nikita Joshi|   17-02-2025          | v1          | Nikita Joshi   |17-02-2025    |  Internal Reviewer | Komal Jaiswal |
+| **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
+|------------|----------------|-------------|---------------------|--------------------|--------------------|-----------------|
+| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-27         | Internal Reviewer  | Komal Jaiswal   |
+| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-27         | L0                 | Imran           |
+| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-27         | L1                 | Shashi          |
+| Himanshu   | 2025-04-14      | 1.0         | Himanshu            | 2025-04-27         | L2                 | Mahesh Kumar    |
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -106,9 +108,9 @@ In our project, we use GitHub PATs instead of passwords for secure access to API
 ---
 ##  **Contact Information**
 
-| **Name** | **Email Address** | **GitHub ID** |
-|----------|-----------------|-------------------|
-| Nikita Joshi | jnikita647@gmail.com | [GitHub Profile](https://github.com/jnikita19) |
+| Name              | Email Address                                   |
+|-------------------|--------------------------------------------------|
+| Himanshu Parashar | himanshu.parashar.snaatak@mygurukulam.co         |
 
 ---
 ##  **References**
