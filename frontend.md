@@ -1,4 +1,5 @@
-# Frontend POC
+# POC Document for Frontend
+
 ### This document provides Proof-of-Concept (POC) of frontend in detail.
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Last Edited On** | **Level**          | **Reviewer**    |
@@ -55,27 +56,27 @@ Test case integration for application functionality verification.
 ## Installation Steps
 For the Frontend PoC, follow the steps mentioned below:
 
-### - Update Packages
+###  Update Packages
 First step is to update the packages (instance type t2.small, volume 20GB):
 ```sh
 sudo apt update
 sudo apt list --upgradable
 ```
 
-### - Clone the Repository
+###  Clone the Repository
 ```sh
 git clone https://github.com/OT-MICROSERVICES/frontend.git
 cd frontend
 ```
 
-### - Install Node.js
+###  Install Node.js
 ```sh
 sudo apt update
 sudo apt install nodejs -y
 nodejs -v
 ```
 
-### - Install NPM
+###  Install NPM
 ```sh
 sudo apt install npm
 npm -v
@@ -104,11 +105,12 @@ Inside the frontend directory:
 </body>
 </html>
 
+```
 
-### - Edit the package.json
+###  Edit the package.json
 In the `package.json`, replace the proxy IP with your public VM IP address along with the specified port.
 
-### - Build the Application
+###  Build the Application
 For building the application, use the `make` command from the Makefile:
 ```sh
 make build
@@ -118,13 +120,13 @@ If you encounter an OpenSSL error, run:
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
-### - Run the Application
+###  Run the Application
 To run the application:
 ```sh
 npm start
 ```
 
-### - Output
+###  Output
 Access the application via the public IP address of the VM in a browser.
 
 ---
@@ -132,6 +134,7 @@ Access the application via the public IP address of the VM in a browser.
 ## Conclusion
 The Frontend API is a robust microservice designed to manage the user interface within the OT-Microservices architecture.  
 The API is dynamic and interactive as it is based on ReactJS, a high-performance JavaScript library.
+
 
 ---
 
@@ -147,5 +150,4 @@ The API is dynamic and interactive as it is based on ReactJS, a high-performance
 |-------|-------------|
 | [Node.js Installation Guide](https://nodejs.org/en/download/package-manager/all) | For Node.js Installation |
 | [GeeksforGeeks Node.js and NPM Setup](https://www.geeksforgeeks.org/how-to-install-node-js-and-npm-on-ubuntu/) | For NPM Installation |
-
 
