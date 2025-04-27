@@ -63,7 +63,9 @@ Test case integration for application functionality verification.
 ![Architecture](https://github.com/OT-MICROSERVICES/frontend/blob/main/static/frontend.png?raw=true)
 
 ## Installation Steps
-Click here for Setup and run the App for POC (https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu-SCRUM-96/ot_ms_understanding/frontend/setup.md)
+
+[Click here for Setup and run the App for POC](https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu-SCRUM-96/ot_ms_understanding/frontend/setup.md)
+
 
 ### Frontend Web
 
