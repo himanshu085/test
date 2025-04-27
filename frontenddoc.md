@@ -63,7 +63,8 @@ Test case integration for application functionality verification.
 ![Architecture](https://github.com/OT-MICROSERVICES/frontend/blob/main/static/frontend.png?raw=true)
 
 ## Installation Steps
-Click here for Setup and run the App for POC (https://github.com/himanshu085/test/blob/main/pocfrontend.md)
+Click here for Setup and run the App for POC (https://github.com/Cloud-NInja-snaatak/Documentation/blob/himanshu-SCRUM-96/ot_ms_understanding/frontend/setup.md)
+
 ### Frontend Web
 
 The Frontend Web is the primary user interface for the OT-Microservices stack. It is a ReactJS-based application that allows users to interact with the system through a web browser. Built using the ReactJS framework, it provides a fast, responsive, and dynamic UI that can handle complex user interactions with minimal loading times.
