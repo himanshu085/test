@@ -156,15 +156,11 @@ PostgreSQL is the relational database used for storing attendance records.
 ### Conclusion
 
 The OT-Microservices stack combines a ReactJS frontend with backend services using Redis for caching, ScyllaDB for NoSQL, and PostgreSQL for relational data. This ensures scalability, performance, and easy maintenance. The Employee, Salary, and Attendance APIs manage data efficiently, with Redis boosting response times. ScyllaDB and PostgreSQL ensure reliable data storage and retrieval. Together, they provide a high-performing system for managing employee operations seamlessly.
-
----
-
-## Conclusion
 The Frontend API is a robust microservice designed to manage the user interface within the OT-Microservices architecture.  
 The API is dynamic and interactive as it is based on ReactJS, a high-performance JavaScript library.
 
-
 ---
+
 # Contact Information
 
 | Name       | Email Address                |
