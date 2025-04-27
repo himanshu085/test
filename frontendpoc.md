@@ -64,6 +64,10 @@ npm -v
 ###  Edit the package.json
 In the `package.json`, replace the proxy IP with your public VM IP address along with the specified port.
 
+```sh
+vi package.json
+```
+
 ![Screenshot from 2025-04-26 21-10-32](https://github.com/user-attachments/assets/ba0876e5-f852-4534-a17d-422784c273db)
 
 ###  Build the Application
