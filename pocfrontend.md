@@ -48,7 +48,6 @@ cd frontend
 
 ###  Install Node.js
 ```sh
-sudo apt update
 sudo apt install nodejs -y
 nodejs -v
 ```
