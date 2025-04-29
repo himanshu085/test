@@ -35,7 +35,7 @@ Feature Branch Flow is a streamlined Git workflow where each feature is develope
 
 ## Feature Branch Workflow
 
-![image](https://github.com/user-attachments/assets/aabfbe92-82e9-496f-8e54-7b1ef6d1984f)
+![image](https://media.geeksforgeeks.org/wp-content/uploads/20240226111114/image-257.webp)
 
 
 | **Branch**      | **Purpose**                                              | **Origin** | **Merge Into** |
