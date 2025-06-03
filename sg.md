@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b37f714a-60e0-4e7d-b339-e2cedd9cf688" alt="Header Image" />
+  <img src="https://github.com/user-attachments/assets/b37f714a-60e0-4e7d-b339-e2cedd9cf688" alt="Header Image" width="400"/>
 </p>
 
 # Manual Dev Infra setup | Setup Infra for Frontend | Security Group
