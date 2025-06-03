@@ -37,7 +37,8 @@ To record the manual steps followed during the setup of the **security group for
 > Created a security group with the name:  
 **`dev-otms-frontend-sg`**
 
-![Screenshot 1 – Create SG](./Screenshot-from-2025-06-03-17-11-20.png)
+![Screenshot from 2025-06-03 17-12-04](https://github.com/user-attachments/assets/382923e6-07b8-46b7-8c8d-0b528d11afe0)
+
 
 ---
 
@@ -48,7 +49,8 @@ To record the manual steps followed during the setup of the **security group for
 > - **SSH access on port 22** (for secure shell into EC2)  
 > - **Frontend application access on port 3000** (commonly used for React development server)
 
-![Screenshot 2 – Edit Inbound Rules](./Screenshot-from-2025-06-03-17-11-41.png)
+![Screenshot from 2025-06-03 17-11-20](https://github.com/user-attachments/assets/3f55a765-d85d-4088-a659-91cee929920d)
+
 
 ---
 
@@ -56,7 +58,8 @@ To record the manual steps followed during the setup of the **security group for
 
 > Security group successfully created and attached to the respective instance or resource.
 
-![Screenshot 3 – Created SG](./Screenshot-from-2025-06-03-17-12-04.png)
+![Screenshot from 2025-06-03 17-11-41](https://github.com/user-attachments/assets/2a181efa-0aa8-4563-b4cf-a7587134b3dc)
+
 
 ---
 
